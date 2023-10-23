@@ -8,14 +8,13 @@ In the Python code, locate the with open statements in the section where team mi
 
 Here's a code snippet example:
 
-# Open team midrange FGA for all 8 years
+##### Open team midrange FGA for all 8 years
 for year in years:
     with open(f'{your_path_to_yearly_team_midrange_fga_folder}/{year}TeamMR.txt', 'r') as file:
-        # rest of the code
 
-# Open team offensive rating in the playoffs for all 8 years
+##### Open team offensive rating in the playoffs for all 8 years
 for year in years:
     with open(f'{your_path_to_yearly_team_ortg_folder}/{year}oRTG.txt', 'r') as file:
-        # rest of the code
+        
 
 Replace your_path_to_yearly_team_midrange_fga_folder and your_path_to_yearly_team_ortg_folder with the complete paths to the respective folders on your machine. You can download them from the repository
